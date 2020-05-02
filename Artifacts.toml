@@ -1,113 +1,113 @@
 [[libwebp]]
-arch = "armv7l"
-git-tree-sha1 = "a3dcba86daff26a1b0ca522417e5dea76f55f65f"
+arch = "i686"
+git-tree-sha1 = "a22b51d8791b30a1046839bcb7ec5ebb2bd84461"
 libc = "musl"
 os = "linux"
 
     [[libwebp.download]]
-    sha256 = "c7c9290b5df18d03ba26d2892c078f97e52098bf2f65e1b35dd3fc423e81b987"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.arm-linux-musleabihf.tar.gz"
+    sha256 = "4f65fe80c2d0fb9c4761fda073dcda21295884745f2c551ce80501588327cfc7"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.i686-linux-musl.tar.gz"
 [[libwebp]]
-arch = "powerpc64le"
-git-tree-sha1 = "c37a08eb9d06d175a9e82346c26566754625723d"
+arch = "aarch64"
+git-tree-sha1 = "93ff46ce7e8e0ff067399ba74a48f77e6ef2ddee"
+libc = "musl"
+os = "linux"
+
+    [[libwebp.download]]
+    sha256 = "08ae7846c84e622b4a93b207f9c34af643df03fc566c6695f4a8bd270bbda2a9"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.aarch64-linux-musl.tar.gz"
+[[libwebp]]
+arch = "i686"
+git-tree-sha1 = "1a54e04e4bc625b5cf22908e94706c3fd8b976e5"
+os = "windows"
+
+    [[libwebp.download]]
+    sha256 = "ebcb3cd50b1e9289585e28fc5f4e83d19bf5436f71512f9a6c97ffae428d3f6f"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.i686-w64-mingw32.tar.gz"
+[[libwebp]]
+arch = "x86_64"
+git-tree-sha1 = "90cbfd92ebcd05904623753b6b1e5cb29bbbb12d"
+os = "windows"
+
+    [[libwebp.download]]
+    sha256 = "2b025f2ded36cb2fed4e33af40e96be4d76972792c6ee1f801eb791be681710d"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.x86_64-w64-mingw32.tar.gz"
+[[libwebp]]
+arch = "armv7l"
+git-tree-sha1 = "6bfcaf59e9a519cc0299425a9c0ddc88f1f7efdb"
 libc = "glibc"
 os = "linux"
 
     [[libwebp.download]]
-    sha256 = "f864f7a6da204b56aa50533128d5e7e0883cfaf9116418d27c08343b14c95b7a"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "6ca1c7d6165c6b20700229589fed4b56512198737a0b293e3a3de10b397ba22b"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.armv7l-linux-gnueabihf.tar.gz"
+[[libwebp]]
+arch = "armv7l"
+git-tree-sha1 = "b4aae8717c6278d3c23bfcbebf93d1c99e8c808b"
+libc = "musl"
+os = "linux"
+
+    [[libwebp.download]]
+    sha256 = "26cad9d99fdd5d5510c81b794b3b7c7f078af8ed82655f4cb40ec512b37cfceb"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.armv7l-linux-musleabihf.tar.gz"
+[[libwebp]]
+arch = "i686"
+git-tree-sha1 = "d77211382909d3872a5776c645d4c1740c74b5d4"
+libc = "glibc"
+os = "linux"
+
+    [[libwebp.download]]
+    sha256 = "7d86360988dcb4290635f5251af142b8da847c0049207ffdce1e23b03f548b19"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.i686-linux-gnu.tar.gz"
 [[libwebp]]
 arch = "x86_64"
-git-tree-sha1 = "9d5cede62ca2918019cedd77edea9aea65bbc4d1"
+git-tree-sha1 = "6005afed373f49f98c499f35ebd871c875772532"
+libc = "glibc"
+os = "linux"
+
+    [[libwebp.download]]
+    sha256 = "9335f67277ea117556d29f18b4c1e27b6ba1aa8ad8061904149a0faffb5e4fb5"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.x86_64-linux-gnu.tar.gz"
+[[libwebp]]
+arch = "powerpc64le"
+git-tree-sha1 = "2ba006438ef60762542bfcf31e44f062f96b5f3f"
+libc = "glibc"
+os = "linux"
+
+    [[libwebp.download]]
+    sha256 = "53c8b7191ef1b41bcf2da2d2979493c8ce810831552667e15683ecd8315c9ca4"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.powerpc64le-linux-gnu.tar.gz"
+[[libwebp]]
+arch = "x86_64"
+git-tree-sha1 = "653b60282951aca673a46538221b9d4c510be559"
 os = "macos"
 
     [[libwebp.download]]
-    sha256 = "e0ff0092a73dbfb6871fcf7d7bcaf006362acfd40c74e508bdf76f3399cc04c8"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.x86_64-apple-darwin14.tar.gz"
+    sha256 = "676960d2caad71a5eeccccde656e322abf28548104a2d652ea3486b3bf769ebe"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.x86_64-apple-darwin14.tar.gz"
 [[libwebp]]
 arch = "aarch64"
-git-tree-sha1 = "b1dfb202bfb63e58bc75739026bf9da2f871805b"
+git-tree-sha1 = "1e6f89fb6fb7dd2231b4c5a65ee17c86bba3b4ed"
 libc = "glibc"
 os = "linux"
 
     [[libwebp.download]]
-    sha256 = "1745ea2925c55ee1951a076903e0a3680867b5e82250b68da5f48ee6fbdf2c5f"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.aarch64-linux-gnu.tar.gz"
-[[libwebp]]
-arch = "armv7l"
-git-tree-sha1 = "680bb7936d3dd0974e363423233c87e2d683d508"
-libc = "glibc"
-os = "linux"
-
-    [[libwebp.download]]
-    sha256 = "d6c309476fd1731724c70a204c746cf4770f12f6835acaba24aa966d69f5c158"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.arm-linux-gnueabihf.tar.gz"
-[[libwebp]]
-arch = "i686"
-git-tree-sha1 = "22c6ead29455cc697cca269cd3a0d1628ccaa7c6"
-libc = "musl"
-os = "linux"
-
-    [[libwebp.download]]
-    sha256 = "fa84df8cd3e2ec8f422a4ac6c2ee1369e1479af33727ba952e70f5a22bbd260d"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.i686-linux-musl.tar.gz"
+    sha256 = "806d242132507649d097f5740c13dca264e3d3e303cb5270dcac744931173407"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.aarch64-linux-gnu.tar.gz"
 [[libwebp]]
 arch = "x86_64"
-git-tree-sha1 = "17768bf21b0b5fcbc13f88c35f20c8ec71e42888"
-libc = "glibc"
-os = "linux"
-
-    [[libwebp.download]]
-    sha256 = "35888c5df14268ca919e3d135c7cf50b270c1993737cc6a5c4de7c96f870819d"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.x86_64-linux-gnu.tar.gz"
-[[libwebp]]
-arch = "x86_64"
-git-tree-sha1 = "6433b0f900a9526dd15446a12999b659d77c87a0"
-os = "windows"
-
-    [[libwebp.download]]
-    sha256 = "7ae38b33c1ae5b6bd892c1590c0c60b0c525c25d0e7401201958c3f79fef98b9"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.x86_64-w64-mingw32.tar.gz"
-[[libwebp]]
-arch = "aarch64"
-git-tree-sha1 = "a81794c64f65c95125a1ffe3fac76a3646322dd2"
-libc = "musl"
-os = "linux"
-
-    [[libwebp.download]]
-    sha256 = "75dff0ff82ba810a41543211c7dc04945719275037da5aa1638b71cefcdb18b6"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.aarch64-linux-musl.tar.gz"
-[[libwebp]]
-arch = "i686"
-git-tree-sha1 = "5aa931d2274d34cd72222da272a497c2c66014d7"
-libc = "glibc"
-os = "linux"
-
-    [[libwebp.download]]
-    sha256 = "966c638d84a62ead392f5a4fd13e08c211a4c2a1f91973391cb60a7a21a35410"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.i686-linux-gnu.tar.gz"
-[[libwebp]]
-arch = "x86_64"
-git-tree-sha1 = "60105c8c60dde2fab665f87ec4e3f68b73ef781a"
-libc = "musl"
-os = "linux"
-
-    [[libwebp.download]]
-    sha256 = "ce583d57c2f9a9c34957beac3cc71533a7b3132d6b5949277c88cea512996d98"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.x86_64-linux-musl.tar.gz"
-[[libwebp]]
-arch = "x86_64"
-git-tree-sha1 = "8aece4ad4a7a17f53c45134cc37005c07980d448"
+git-tree-sha1 = "790a64469ab079dd6bc2df01bc9f97e5d46dde7c"
 os = "freebsd"
 
     [[libwebp.download]]
-    sha256 = "f44041609cab406873f0b4076688d1ed1555ac38a61b39120b9ae8d272a350e4"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "f1f7c26eaf960bf232f02eefa6b9e54a2ac972d1b32610b60f51b52c54fc3090"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.x86_64-unknown-freebsd11.1.tar.gz"
 [[libwebp]]
-arch = "i686"
-git-tree-sha1 = "a67159b42411fd1e527d83ff3a52cc249665a81d"
-os = "windows"
+arch = "x86_64"
+git-tree-sha1 = "9e2f78e3b6d6affee2ef4f120e4b4e7011d1ee6e"
+libc = "musl"
+os = "linux"
 
     [[libwebp.download]]
-    sha256 = "90af55a9c42f38c748ae8d3368de047410eebe9759f9c0520a0d278417aaaad1"
-    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.0.3+1/libwebp.v1.0.3.i686-w64-mingw32.tar.gz"
+    sha256 = "f67ad09daa19bfe0ed64952957575ff6ccc9ee8b68c70d82d1062bdcecdd0517"
+    url = "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.1.0+0/libwebp.v1.1.0.x86_64-linux-musl.tar.gz"

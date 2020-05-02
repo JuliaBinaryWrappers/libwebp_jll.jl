@@ -1,6 +1,6 @@
 name = "libwebp_jll"
 uuid = "c5f90fcd-3b7e-5836-afba-fc50a0988cb2"
-version = "1.0.3+1"
+version = "1.1.0+0"
 
 [deps]
 Libglvnd_jll = "7e76a0d4-f3c7-5321-8279-8d96eeed0f29"
@@ -12,4 +12,4 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Giflib_jll = "59f7168a-df46-5410-90c8-f2779963d0ec"
 
 [compat]
-julia = "1.3"
+julia = "1.0"
