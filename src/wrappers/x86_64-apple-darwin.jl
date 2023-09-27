@@ -7,38 +7,18 @@ using libpng_jll
 using Libtiff_jll
 using Libglvnd_jll
 JLLWrappers.@generate_wrapper_header("libwebp")
-JLLWrappers.@declare_executable_product(cwebp)
-JLLWrappers.@declare_executable_product(dwebp)
-JLLWrappers.@declare_executable_product(gif2webp)
-JLLWrappers.@declare_executable_product(img2webp)
 JLLWrappers.@declare_library_product(libwebp, "@rpath/libwebp.7.dylib")
 JLLWrappers.@declare_library_product(libwebpdecoder, "@rpath/libwebpdecoder.3.dylib")
 JLLWrappers.@declare_library_product(libwebpdemux, "@rpath/libwebpdemux.2.dylib")
 JLLWrappers.@declare_library_product(libwebpmux, "@rpath/libwebpmux.3.dylib")
+JLLWrappers.@declare_executable_product(cwebp)
+JLLWrappers.@declare_executable_product(dwebp)
+JLLWrappers.@declare_executable_product(gif2webp)
+JLLWrappers.@declare_executable_product(img2webp)
 JLLWrappers.@declare_executable_product(webpinfo)
 JLLWrappers.@declare_executable_product(webpmux)
 function __init__()
     JLLWrappers.@generate_init_header(Giflib_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll, Libglvnd_jll)
-    JLLWrappers.@init_executable_product(
-        cwebp,
-        "bin/cwebp",
-    )
-
-    JLLWrappers.@init_executable_product(
-        dwebp,
-        "bin/dwebp",
-    )
-
-    JLLWrappers.@init_executable_product(
-        gif2webp,
-        "bin/gif2webp",
-    )
-
-    JLLWrappers.@init_executable_product(
-        img2webp,
-        "bin/img2webp",
-    )
-
     JLLWrappers.@init_library_product(
         libwebp,
         "lib/libwebp.7.dylib",
@@ -61,6 +41,26 @@ function __init__()
         libwebpmux,
         "lib/libwebpmux.3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        cwebp,
+        "bin/cwebp",
+    )
+
+    JLLWrappers.@init_executable_product(
+        dwebp,
+        "bin/dwebp",
+    )
+
+    JLLWrappers.@init_executable_product(
+        gif2webp,
+        "bin/gif2webp",
+    )
+
+    JLLWrappers.@init_executable_product(
+        img2webp,
+        "bin/img2webp",
     )
 
     JLLWrappers.@init_executable_product(
