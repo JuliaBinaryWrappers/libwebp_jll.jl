@@ -5,7 +5,6 @@ using Giflib_jll
 using JpegTurbo_jll
 using libpng_jll
 using Libtiff_jll
-using Libglvnd_jll
 JLLWrappers.@generate_wrapper_header("libwebp")
 JLLWrappers.@declare_library_product(libwebp, "libwebp-7.dll")
 JLLWrappers.@declare_library_product(libwebpdecoder, "libwebpdecoder-3.dll")
@@ -18,7 +17,7 @@ JLLWrappers.@declare_executable_product(img2webp)
 JLLWrappers.@declare_executable_product(webpinfo)
 JLLWrappers.@declare_executable_product(webpmux)
 function __init__()
-    JLLWrappers.@generate_init_header(Giflib_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll, Libglvnd_jll)
+    JLLWrappers.@generate_init_header(Giflib_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll)
     JLLWrappers.@init_library_product(
         libwebp,
         "bin\\libwebp-7.dll",
